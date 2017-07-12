@@ -1,0 +1,4 @@
+status = Execution Successful.
+machine_capable = MAZAK-M7303290458, can machine the part.
+machine_available = MAZAK-M7303290458 is available now.
+feedback = No feedbacks.

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="9e44e9df-dfc0-1004-85e2-7a574006fcb6" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <parameters>
+        <parameter id="9e44e9ed-dfc0-1004-85e2-7a574006fcb6" name="inputTemplate">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Home&lt;/title&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/jquery-ui-themes.css" type="text/css" rel="stylesheet"/&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/axure_rp_page.css" type="text/css" rel="stylesheet"/&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/stylesd.css" type="text/css" rel="stylesheet"/&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/styles.css" type="text/css" rel="stylesheet"/&gt; &lt;/head&gt; &lt;body&gt; &lt;div id="base" class=""&gt; &lt;!-- Unnamed (Image) --&gt; &lt;div id="u0" class="ax_default image"&gt; &lt;img id="u0_img" class="img " src="https://s3.amazonaws.com/dmdiidome2/u0.jpg"/&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u1" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u2" class="ax_default box_1"&gt; &lt;div id="u2_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u3" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u4" class="ax_default heading_3"&gt; &lt;div id="u4_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u5" class="text"&gt; &lt;p&gt;&lt;span&gt;DIME Laboratory: Part-Machine Specifications Verification&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u6" class="ax_default box_2"&gt; &lt;div id="u6_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u7" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u8" class="ax_default text_field"&gt; &lt;input id="ipaddress_in" type="text" placeholder="{{ipaddress_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u9" class="ax_default label"&gt; &lt;div id="u9_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u10" class="text"&gt; &lt;p&gt;&lt;span&gt;IP Address&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u11" class="ax_default label"&gt; &lt;div id="u11_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u12" class="text"&gt; &lt;p&gt;&lt;span&gt;Port&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u13" class="ax_default label"&gt; &lt;div id="u13_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u14" class="text"&gt; &lt;p&gt;&lt;span&gt;User Name&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u15" class="ax_default label"&gt; &lt;div id="u15_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u16" class="text"&gt; &lt;p&gt;&lt;span&gt;Database Name&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u17" class="ax_default label"&gt; &lt;div id="u17_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u18" class="text"&gt; &lt;p&gt;&lt;span&gt;Password&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u19" class="ax_default text_field"&gt; &lt;input id="port_in" type="text" placeholder="{{port_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u20" class="ax_default text_field"&gt; &lt;input id="username_in" type="text" placeholder="{{username_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u21" class="ax_default text_field"&gt; &lt;input id="dbname_in" type="text" placeholder="{{dbname_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u22" class="ax_default text_field"&gt; &lt;input id="password_in" type="text" placeholder="{{password_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u23" class="ax_default box_2"&gt; &lt;div id="u23_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u24" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u25" class="ax_default label"&gt; &lt;div id="u25_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u26" class="text"&gt; &lt;p&gt;&lt;span&gt;Setup Sheet&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u27" class="ax_default label"&gt; &lt;div id="u27_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u28" class="text"&gt; &lt;p&gt;&lt;span&gt;Material&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u29" class="ax_default text_field"&gt; &lt;input id="material_in" type="text" placeholder="{{material_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u30" class="ax_default text_field"&gt; &lt;input id="setupsheet_in" type="text" placeholder="{{setupsheet_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u31" class="ax_default html_button"&gt; &lt;button style="height:30px;width:100px" ng-click="run()"&gt;Run&lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f0-dfc0-1004-85e2-7a574006fcb6" name="ipaddress_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">13.84.183.46</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f3-dfc0-1004-85e2-7a574006fcb6" name="port_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">5432</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f6-dfc0-1004-85e2-7a574006fcb6" name="dbname_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">ncstate</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f9-dfc0-1004-85e2-7a574006fcb6" name="username_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">ncstate</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9fc-dfc0-1004-85e2-7a574006fcb6" name="password_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">xxxxx</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9ff-dfc0-1004-85e2-7a574006fcb6" name="setupsheet_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">xxxxx</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea02-dfc0-1004-85e2-7a574006fcb6" name="material_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">xxxxx</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea08-dfc0-1004-85e2-7a574006fcb6" name="outputTemplate">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea0b-dfc0-1004-85e2-7a574006fcb6" name="ipaddress_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea0e-dfc0-1004-85e2-7a574006fcb6" name="port_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea11-dfc0-1004-85e2-7a574006fcb6" name="dbname_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea14-dfc0-1004-85e2-7a574006fcb6" name="setupsheet_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea17-dfc0-1004-85e2-7a574006fcb6" name="material_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea1a-dfc0-1004-85e2-7a574006fcb6" name="status_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea1d-dfc0-1004-85e2-7a574006fcb6" name="machine_capability_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea20-dfc0-1004-85e2-7a574006fcb6" name="machine_availability_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea23-dfc0-1004-85e2-7a574006fcb6" name="feedback_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9ee-dfc0-1004-85e2-7a574006fcb6" name="inputTemplate">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;title&gt;Home&lt;/title&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/jquery-ui-themes.css" type="text/css" rel="stylesheet"/&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/axure_rp_page.css" type="text/css" rel="stylesheet"/&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/stylesd.css" type="text/css" rel="stylesheet"/&gt; &lt;link href="https://s3.amazonaws.com/dmdiidome2/styles.css" type="text/css" rel="stylesheet"/&gt; &lt;/head&gt; &lt;body&gt; &lt;div id="base" class=""&gt; &lt;!-- Unnamed (Image) --&gt; &lt;div id="u0" class="ax_default image"&gt; &lt;img id="u0_img" class="img " src="https://s3.amazonaws.com/dmdiidome2/u0.jpg"/&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u1" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u2" class="ax_default box_1"&gt; &lt;div id="u2_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u3" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u4" class="ax_default heading_3"&gt; &lt;div id="u4_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u5" class="text"&gt; &lt;p&gt;&lt;span&gt;DIME Laboratory: Part-Machine Specifications Verification&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u6" class="ax_default box_2"&gt; &lt;div id="u6_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u7" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u8" class="ax_default text_field"&gt; &lt;input id="ipaddress_in" type="text" placeholder="{{ipaddress_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u9" class="ax_default label"&gt; &lt;div id="u9_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u10" class="text"&gt; &lt;p&gt;&lt;span&gt;IP Address&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u11" class="ax_default label"&gt; &lt;div id="u11_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u12" class="text"&gt; &lt;p&gt;&lt;span&gt;Port&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u13" class="ax_default label"&gt; &lt;div id="u13_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u14" class="text"&gt; &lt;p&gt;&lt;span&gt;User Name&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u15" class="ax_default label"&gt; &lt;div id="u15_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u16" class="text"&gt; &lt;p&gt;&lt;span&gt;Database Name&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u17" class="ax_default label"&gt; &lt;div id="u17_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u18" class="text"&gt; &lt;p&gt;&lt;span&gt;Password&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u19" class="ax_default text_field"&gt; &lt;input id="port_in" type="text" placeholder="{{port_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u20" class="ax_default text_field"&gt; &lt;input id="username_in" type="text" placeholder="{{username_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u21" class="ax_default text_field"&gt; &lt;input id="dbname_in" type="text" placeholder="{{dbname_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u22" class="ax_default text_field"&gt; &lt;input id="password_in" type="text" placeholder="{{password_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u23" class="ax_default box_2"&gt; &lt;div id="u23_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u24" class="text" style="display:none; visibility: hidden"&gt; &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u25" class="ax_default label"&gt; &lt;div id="u25_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u26" class="text"&gt; &lt;p&gt;&lt;span&gt;Setup Sheet&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u27" class="ax_default label"&gt; &lt;div id="u27_div" class=""&gt;&lt;/div&gt; &lt;!-- Unnamed () --&gt; &lt;div id="u28" class="text"&gt; &lt;p&gt;&lt;span&gt;Material&lt;/span&gt;&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u29" class="ax_default text_field"&gt; &lt;input id="material_in" type="text" placeholder="{{material_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Text Field) --&gt; &lt;div id="u30" class="ax_default text_field"&gt; &lt;input id="setupsheet_in" type="text" placeholder="{{setupsheet_in}}"/&gt; &lt;/div&gt; &lt;!-- Unnamed (Rectangle) --&gt; &lt;div id="u31" class="ax_default html_button"&gt; &lt;button style="height:30px;width:100px" ng-click="run()"&gt;Run&lt;/button&gt; &lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f1-dfc0-1004-85e2-7a574006fcb6" name="ipaddress_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">13.84.183.46</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f4-dfc0-1004-85e2-7a574006fcb6" name="port_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">5432</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9f7-dfc0-1004-85e2-7a574006fcb6" name="dbname_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">ncstate</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9fa-dfc0-1004-85e2-7a574006fcb6" name="username_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">ncstate</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44e9fd-dfc0-1004-85e2-7a574006fcb6" name="password_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">xxxxx</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea00-dfc0-1004-85e2-7a574006fcb6" name="setupsheet_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">xxxxx</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea03-dfc0-1004-85e2-7a574006fcb6" name="material_in">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">xxxxx</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea09-dfc0-1004-85e2-7a574006fcb6" name="outputTemplate">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea0c-dfc0-1004-85e2-7a574006fcb6" name="ipaddress_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea0f-dfc0-1004-85e2-7a574006fcb6" name="port_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea12-dfc0-1004-85e2-7a574006fcb6" name="dbname_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea15-dfc0-1004-85e2-7a574006fcb6" name="setupsheet_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea18-dfc0-1004-85e2-7a574006fcb6" name="material_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea1b-dfc0-1004-85e2-7a574006fcb6" name="status_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea1e-dfc0-1004-85e2-7a574006fcb6" name="machine_capability_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea21-dfc0-1004-85e2-7a574006fcb6" name="machine_availability_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+        <parameter id="9e44ea24-dfc0-1004-85e2-7a574006fcb6" name="feedback_out">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String">NA</dataobject>
+            </data>
+        </parameter>
+    </parameters>
+    <visualizations/>
+    <relations/>
+    <contexts>
+        <context id="9e44e9e9-dfc0-1004-85e2-7a574006fcb6" name="Inputs">
+            <modelobjects>
+                <parameter name="inputTemplate" idRef="9e44e9ed-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="ipaddress_in" idRef="9e44e9f0-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="port_in" idRef="9e44e9f3-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="dbname_in" idRef="9e44e9f6-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="username_in" idRef="9e44e9f9-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="password_in" idRef="9e44e9fc-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="setupsheet_in" idRef="9e44e9ff-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="material_in" idRef="9e44ea02-dfc0-1004-85e2-7a574006fcb6"/>
+            </modelobjects>
+        </context>
+        <context id="9e44e9eb-dfc0-1004-85e2-7a574006fcb6" name="Outputs">
+            <modelobjects>
+                <parameter name="outputTemplate" idRef="9e44ea08-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="ipaddress_out" idRef="9e44ea0b-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="port_out" idRef="9e44ea0e-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="dbname_out" idRef="9e44ea11-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="setupsheet_out" idRef="9e44ea14-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="material_out" idRef="9e44ea17-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="status_out" idRef="9e44ea1a-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="machine_capability_out" idRef="9e44ea1d-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="machine_availability_out" idRef="9e44ea20-dfc0-1004-85e2-7a574006fcb6"/>
+                <parameter name="feedback_out" idRef="9e44ea23-dfc0-1004-85e2-7a574006fcb6"/>
+            </modelobjects>
+        </context>
+        <context id="IFACE_MODEL_CXT" name="Model View">
+            <modelobjects>
+                <context name="Inputs" idRef="9e44e9e9-dfc0-1004-85e2-7a574006fcb6"/>
+                <context name="Outputs" idRef="9e44e9eb-dfc0-1004-85e2-7a574006fcb6"/>
+            </modelobjects>
+        </context>
+    </contexts>
+    <views>
+        <view name="Build View">
+            <context id="IFACE_BUILD_CXT" name="Build View">
+                <modelobjects>
+                    <parameter name="inputTemplate" idRef="9e44e9ee-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="ipaddress_in" idRef="9e44e9f1-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="port_in" idRef="9e44e9f4-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="dbname_in" idRef="9e44e9f7-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="username_in" idRef="9e44e9fa-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="password_in" idRef="9e44e9fd-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="setupsheet_in" idRef="9e44ea00-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="material_in" idRef="9e44ea03-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="outputTemplate" idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="ipaddress_out" idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="port_out" idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="dbname_out" idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="setupsheet_out" idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="material_out" idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="status_out" idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="machine_capability_out" idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="machine_availability_out" idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="feedback_out" idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+                </modelobjects>
+            </context>
+        </view>
+        <view name="Interface Causality View">
+            <filter id="INPUTS_FILTER" name="Inputs">
+                <parameters>
+                    <parameter name="inputTemplate" idRef="9e44e9ee-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="setupsheet_in" idRef="9e44ea00-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="material_in" idRef="9e44ea03-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="port_in" idRef="9e44e9f4-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="ipaddress_in" idRef="9e44e9f1-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="dbname_in" idRef="9e44e9f7-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="password_in" idRef="9e44e9fd-dfc0-1004-85e2-7a574006fcb6"/>
+                    <parameter name="username_in" idRef="9e44e9fa-dfc0-1004-85e2-7a574006fcb6"/>
+                </parameters>
+            </filter>
+            <filter id="OUTPUTS_FILTER" name="Outputs">
+                <parameters>
+                    <parameter name="dbname_out" idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="machine_capability_out" idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="feedback_out" idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="port_out" idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="machine_availability_out" idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="outputTemplate" idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="ipaddress_out" idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="status_out" idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="setupsheet_out" idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                    <parameter name="material_out" idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6" causality="Result"/>
+                </parameters>
+            </filter>
+            <filter id="INDETERMINATES_FILTER" name="Indeterminates"/>
+        </view>
+    </views>
+    <directedGraph id="9e44e9df-dfc0-1004-85e2-7a574006fcb6">
+        <nodes>
+            <node idRef="9e44e9ee-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44e9f1-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44e9f4-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44e9f7-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44e9fa-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44e9fd-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea00-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea03-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+            <node idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+        </nodes>
+        <arcs>
+            <from idRef="9e44e9ee-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44e9f1-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44e9f4-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44e9f7-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44e9fa-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44e9fd-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44ea00-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+            <from idRef="9e44ea03-dfc0-1004-85e2-7a574006fcb6">
+                <to idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6"/>
+                <to idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6"/>
+            </from>
+        </arcs>
+    </directedGraph>
+    <interfaceToRelParamMap>
+        <iToRpMap relParamId="9e44e9ee-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9ec-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44e9f1-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9ef-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44e9f4-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9f2-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44e9f7-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9f5-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44e9fa-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9f8-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44e9fd-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9fb-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea00-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44e9fe-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea03-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea01-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea09-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea07-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea0c-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea0a-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea0f-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea0d-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea12-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea10-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea15-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea13-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea18-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea16-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea1b-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea19-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea1e-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea1c-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea21-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea1f-dfc0-1004-85e2-7a574006fcb6"/>
+        <iToRpMap relParamId="9e44ea24-dfc0-1004-85e2-7a574006fcb6" ifaceId="9e44ea22-dfc0-1004-85e2-7a574006fcb6"/>
+    </interfaceToRelParamMap>
+</modelinterface>

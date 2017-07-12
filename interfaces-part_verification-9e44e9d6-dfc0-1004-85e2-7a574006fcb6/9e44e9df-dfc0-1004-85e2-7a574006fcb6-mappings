@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="9e44e9df-dfc0-1004-85e2-7a574006fcb6" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="feedback_out" idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="feedback_out" idRef="9e44ea22-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="port_out" idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="port_out" idRef="9e44ea0d-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="material_out" idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="material_out" idRef="9e44ea16-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="setupsheet_in" idRef="9e44ea00-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="setupsheet_in" idRef="9e44e9fe-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="dbname_in" idRef="9e44e9f7-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="dbname_in" idRef="9e44e9f5-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="username_in" idRef="9e44e9fa-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="username_in" idRef="9e44e9f8-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="setupsheet_out" idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="setupsheet_out" idRef="9e44ea13-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="ipaddress_in" idRef="9e44e9f1-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="ipaddress_in" idRef="9e44e9ef-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="ipaddress_out" idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="ipaddress_out" idRef="9e44ea0a-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="material_in" idRef="9e44ea03-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="material_in" idRef="9e44ea01-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="outputTemplate" idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="outputTemplate" idRef="9e44ea07-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="status_out" idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="status_out" idRef="9e44ea19-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="inputTemplate" idRef="9e44e9ee-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="inputTemplate" idRef="9e44e9ec-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="machine_capability_out" idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="machine_capability_out" idRef="9e44ea1c-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="password_in" idRef="9e44e9fd-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="password_in" idRef="9e44e9fb-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="dbname_out" idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="dbname_out" idRef="9e44ea10-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="port_in" idRef="9e44e9f4-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="port_in" idRef="9e44e9f2-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="machine_availability_out" idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="machine_availability_out" idRef="9e44ea1f-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="machine_availability_out" idRef="9e44ea20-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="machine_availability_out" idRef="9e44ea1f-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="ipaddress_in" idRef="9e44e9f0-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="ipaddress_in" idRef="9e44e9ef-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="outputTemplate" idRef="9e44ea08-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="outputTemplate" idRef="9e44ea07-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="password_in" idRef="9e44e9fc-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="password_in" idRef="9e44e9fb-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="setupsheet_in" idRef="9e44e9ff-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="setupsheet_in" idRef="9e44e9fe-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="material_out" idRef="9e44ea17-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="material_out" idRef="9e44ea16-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="dbname_in" idRef="9e44e9f6-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="dbname_in" idRef="9e44e9f5-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="username_in" idRef="9e44e9f9-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="username_in" idRef="9e44e9f8-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="status_out" idRef="9e44ea1a-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="status_out" idRef="9e44ea19-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="dbname_out" idRef="9e44ea11-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="dbname_out" idRef="9e44ea10-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="setupsheet_out" idRef="9e44ea14-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="setupsheet_out" idRef="9e44ea13-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="port_in" idRef="9e44e9f3-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="port_in" idRef="9e44e9f2-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="material_in" idRef="9e44ea02-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="material_in" idRef="9e44ea01-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="inputTemplate" idRef="9e44e9ed-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="inputTemplate" idRef="9e44e9ec-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="ipaddress_out" idRef="9e44ea0b-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="ipaddress_out" idRef="9e44ea0a-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="port_out" idRef="9e44ea0e-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="port_out" idRef="9e44ea0d-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="machine_capability_out" idRef="9e44ea1d-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="machine_capability_out" idRef="9e44ea1c-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+                <mappedParameter name="feedback_out" idRef="9e44ea23-dfc0-1004-85e2-7a574006fcb6">
+                    <parameter name="feedback_out" idRef="9e44ea22-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+    <lookupdata>
+        <objectmap>
+            <parameter name="inputTemplate" idRef="9e44e9ec-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="inputTemplate" idRef="9e44e9ed-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="outputTemplate" idRef="9e44ea07-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="outputTemplate" idRef="9e44ea08-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="ipaddress_in" idRef="9e44e9ef-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="ipaddress_in" idRef="9e44e9f0-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <context name="Inputs" idRef="9e44e9e8-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <context name="Inputs" idRef="9e44e9e9-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="machine_capability_out" idRef="9e44ea1c-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="machine_capability_out" idRef="9e44ea1d-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="dbname_in" idRef="9e44e9f5-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="dbname_in" idRef="9e44e9f6-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="port_out" idRef="9e44ea0d-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="port_out" idRef="9e44ea0e-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="material_out" idRef="9e44ea16-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="material_out" idRef="9e44ea17-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="setupsheet_out" idRef="9e44ea13-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="setupsheet_out" idRef="9e44ea14-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="setupsheet_in" idRef="9e44e9fe-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="setupsheet_in" idRef="9e44e9ff-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <context name="Outputs" idRef="9e44e9ea-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <context name="Outputs" idRef="9e44e9eb-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="password_in" idRef="9e44e9fb-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="password_in" idRef="9e44e9fc-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="dbname_out" idRef="9e44ea10-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="dbname_out" idRef="9e44ea11-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="ipaddress_out" idRef="9e44ea0a-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="ipaddress_out" idRef="9e44ea0b-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="status_out" idRef="9e44ea19-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="status_out" idRef="9e44ea1a-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="machine_availability_out" idRef="9e44ea1f-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="machine_availability_out" idRef="9e44ea20-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="port_in" idRef="9e44e9f2-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="port_in" idRef="9e44e9f3-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="feedback_out" idRef="9e44ea22-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="feedback_out" idRef="9e44ea23-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="material_in" idRef="9e44ea01-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="material_in" idRef="9e44ea02-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="username_in" idRef="9e44e9f8-dfc0-1004-85e2-7a574006fcb6" idModelRef="9e44e9d6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="username_in" idRef="9e44e9f9-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+        </objectmap>
+        <viewobjectmap>
+            <parameter name="machine_availability_out" idRef="9e44ea20-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="machine_availability_out" idRef="9e44ea21-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="ipaddress_in" idRef="9e44e9f0-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="ipaddress_in" idRef="9e44e9f1-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="outputTemplate" idRef="9e44ea08-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="outputTemplate" idRef="9e44ea09-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="password_in" idRef="9e44e9fc-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="password_in" idRef="9e44e9fd-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="setupsheet_in" idRef="9e44e9ff-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="setupsheet_in" idRef="9e44ea00-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="material_out" idRef="9e44ea17-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="material_out" idRef="9e44ea18-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="dbname_in" idRef="9e44e9f6-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="dbname_in" idRef="9e44e9f7-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="username_in" idRef="9e44e9f9-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="username_in" idRef="9e44e9fa-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="status_out" idRef="9e44ea1a-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="status_out" idRef="9e44ea1b-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="dbname_out" idRef="9e44ea11-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="dbname_out" idRef="9e44ea12-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="setupsheet_out" idRef="9e44ea14-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="setupsheet_out" idRef="9e44ea15-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="port_in" idRef="9e44e9f3-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="port_in" idRef="9e44e9f4-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="material_in" idRef="9e44ea02-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="material_in" idRef="9e44ea03-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="inputTemplate" idRef="9e44e9ed-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="inputTemplate" idRef="9e44e9ee-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="ipaddress_out" idRef="9e44ea0b-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="ipaddress_out" idRef="9e44ea0c-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="port_out" idRef="9e44ea0e-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="port_out" idRef="9e44ea0f-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="machine_capability_out" idRef="9e44ea1d-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="machine_capability_out" idRef="9e44ea1e-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+            <parameter name="feedback_out" idRef="9e44ea23-dfc0-1004-85e2-7a574006fcb6" description="key"/>
+            <parameter name="feedback_out" idRef="9e44ea24-dfc0-1004-85e2-7a574006fcb6" description="value"/>
+        </viewobjectmap>
+        <relationobjectmap/>
+    </lookupdata>
+</modelinterface>
